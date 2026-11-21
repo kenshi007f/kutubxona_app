@@ -45,7 +45,7 @@ class Bolim {
 
 // --- BO'LIMLAR VA ULAR ICHIDAGI KITOBLAR ---
 const List<Bolim> hammaBolimlar = [
-  // 1-BO'LIM: ODAM ANATOMIYASI
+  // 1-BO'LIM: ODAM ANATOMIYASI (Darsliklar)
   Bolim(
     'Odam anatomiyasi',
     Icons.accessibility_new,
@@ -95,6 +95,35 @@ const List<Bolim> hammaBolimlar = [
       Kitob(
         'Odam fiziologiyasi - Babskiy',
         'https://github.com/kenshi007f/kutubxona_app/raw/main/Бабский_Одам_физиологияси.pdf'
+      ),
+    ],
+  ),
+
+  // 3-BO'LIM: ATLASLAR
+  Bolim(
+    'Odam anatomiyasi (Atlas)',
+    Icons.image,
+    Colors.orange,
+    [
+      Kitob(
+        'Atlas 1-tom - Sinelnikov',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/ATLAS_ANATOMIYA_1_TOM_SINELNIKOV.pdf'
+      ),
+      Kitob(
+        'Atlas 2-tom - Teshaev',
+        'https://github.com/kenshi007f/kutubxona_app/releases/download/v1.0/Anatomiya.Atlas_2_tom_Teshaev.pdf' // Rasmga qarab to'g'rilandi
+      ),
+      Kitob(
+        'Atlas 1-jild - N. Ahmedov',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Atlas_1_jild_Ahmedov.pdf'
+      ),
+      Kitob(
+        'Atlas 1-tom - Teshaev',
+        'https://github.com/kenshi007f/kutubxona_app/releases/download/v1.0/Anatomiya_Atlas_1_tom_Teshaev.pdf' // Rasmga qarab to'g'rilandi
+      ),
+      Kitob(
+        'Atlas 2-jild - N. Ahmedov',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Atlas_2_jild_Ahmedov.pdf'
       ),
     ],
   ),

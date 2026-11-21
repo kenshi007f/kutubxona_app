@@ -45,6 +45,7 @@ class Bolim {
 
 // --- BO'LIMLAR VA ULAR ICHIDAGI KITOBLAR ---
 const List<Bolim> hammaBolimlar = [
+  // 1-BO'LIM: ODAM ANATOMIYASI
   Bolim(
     'Odam anatomiyasi',
     Icons.accessibility_new,
@@ -69,6 +70,31 @@ const List<Bolim> hammaBolimlar = [
       Kitob(
         'Anatomiya - Xudoyberdiyev',
         'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Xudoyberdiyev.pdf'
+      ),
+    ],
+  ),
+
+  // 2-BO'LIM: NORMAL FIZIOLOGIYA
+  Bolim(
+    'Normal fiziologiya',
+    Icons.favorite,
+    Colors.red,
+    [
+      Kitob(
+        'Normal fiziologiya - Qodirov',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Normal_Fiziologiya_Qodirov.pdf'
+      ),
+      Kitob(
+        'Normal fiziologiya - Alaviya (2006)',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Normal_fiziologiya_Alaviya_2006.pdf'
+      ),
+      Kitob(
+        'Normal fiziologiya - Alaviya (2018)',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Алявия_Нормал_физиология_2018.pdf'
+      ),
+      Kitob(
+        'Odam fiziologiyasi - Babskiy',
+        'https://github.com/kenshi007f/kutubxona_app/raw/main/Бабский_Одам_физиологияси.pdf'
       ),
     ],
   ),
@@ -102,7 +128,7 @@ class AsosiySahifa extends StatelessWidget {
               leading: Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: bolim.rang.withOpacity(0.1),
+                  color: bolim.rang.withValues(alpha: 0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Icon(bolim.ikonka, color: bolim.rang, size: 36),
@@ -182,8 +208,10 @@ class _KitobOchishSahifasiState extends State<KitobOchishSahifasi> {
     _faylniTekshirish();
   }
 
+  // 1. Fayl telefonda bormi, yo'qmi tekshiramiz
   Future<void> _faylniTekshirish() async {
     final directory = await getApplicationDocumentsDirectory();
+    // Kitob nomini fayl nomiga aylantiramiz (probellarni olib tashlaymiz)
     final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "") + '.pdf';
     final file = File('${directory.path}/$faylNomi');
 
@@ -192,6 +220,7 @@ class _KitobOchishSahifasiState extends State<KitobOchishSahifasi> {
     }
   }
 
+  // 2. Internetdan yuklash funksiyasi
   Future<void> _yuklash() async {
     setState(() { _yuklanmoqda = true; });
     try {
@@ -199,6 +228,7 @@ class _KitobOchishSahifasiState extends State<KitobOchishSahifasi> {
       final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "") + '.pdf';
       final file = File('${directory.path}/$faylNomi');
 
+      // Internetdan yuklab olish
       final response = await http.get(Uri.parse(widget.kitob.havola));
 
       if (response.statusCode == 200) {

@@ -62,23 +62,23 @@ const List<Kurs> hammaKurslar = [
         [
           Kitob(
             'Odam anatomiyasi - F. Bahodirov',
-            'https://t.me/Med_kutubxona_1/2/10'
+            'https://t.me/Med_kutubxona_1/2/10?single'
           ),
           Kitob(
             'Odam anatomiyasi - Xudoyberdiyev (1993)',
-            'https://t.me/Med_kutubxona_1/2/11'
+            'https://t.me/Med_kutubxona_1/2/11?single'
           ),
           Kitob(
             'Odam anatomiyasi - Gadayev, Mirsharapov',
-            'https://t.me/Med_kutubxona_1/2/12'
+            'https://t.me/Med_kutubxona_1/2/12?single'
           ),
           Kitob(
             'Anatomiya 1-jild - A. Ahmedov',
-            'https://t.me/Med_kutubxona_1/2/13'
+            'https://t.me/Med_kutubxona_1/2/13?single'
           ),
           Kitob(
             'Anatomiya 2-jild - A. Ahmedov',
-            'https://t.me/Med_kutubxona_1/2/15'
+            'https://t.me/Med_kutubxona_1/2/15?single'
           ),
         ],
       ),

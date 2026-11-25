@@ -33,103 +33,62 @@ class Kitob {
   const Kitob(this.nomi, this.havola);
 }
 
-// --- BO'LIM MODELI ---
-class Bolim {
+// --- FAN MODELI ---
+class Fan {
+  final String nomi;
+  final List<Kitob> kitoblar;
+  const Fan(this.nomi, this.kitoblar);
+}
+
+// --- KURS (DARAJALI) MODELI ---
+class Kurs {
   final String nomi;
   final IconData ikonka;
   final Color rang;
-  final List<Kitob> kitoblar;
+  final List<Fan> fanlar;
 
-  const Bolim(this.nomi, this.ikonka, this.rang, this.kitoblar);
+  const Kurs(this.nomi, this.ikonka, this.rang, this.fanlar);
 }
 
-// --- BO'LIMLAR VA ULAR ICHIDAGI KITOBLAR ---
-const List<Bolim> hammaBolimlar = [
-  // 1-BO'LIM: ODAM ANATOMIYASI (Darsliklar)
-  Bolim(
-    'Odam anatomiyasi',
-    Icons.accessibility_new,
-    Colors.blue,
+// --- BARCHA MA'LUMOTLAR ---
+const List<Kurs> hammaKurslar = [
+  Kurs(
+    '1-darajali fanlar',
+    Icons.looks_one,
+    Colors.teal,
     [
-      Kitob(
-        'Odam anatomiyasi (1-jild) - Ahmedov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Ahmedov_2018_1_jild.pdf'
+      Fan(
+        'Anatomiya',
+        [
+          Kitob(
+            'Odam anatomiyasi - F. Bahodirov',
+            'https://t.me/Med_kutubxona_1/2/10'
+          ),
+          Kitob(
+            'Odam anatomiyasi - Xudoyberdiyev (1993)',
+            'https://t.me/Med_kutubxona_1/2/11'
+          ),
+          Kitob(
+            'Odam anatomiyasi - Gadayev, Mirsharapov',
+            'https://t.me/Med_kutubxona_1/2/12'
+          ),
+          Kitob(
+            'Anatomiya 1-jild - A. Ahmedov',
+            'https://t.me/Med_kutubxona_1/2/13'
+          ),
+          Kitob(
+            'Anatomiya 2-jild - A. Ahmedov',
+            'https://t.me/Med_kutubxona_1/2/15'
+          ),
+        ],
       ),
-      Kitob(
-        'Odam anatomiyasi (2-jild) - Ahmedov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Ahmedov_2018_2_jild.pdf'
-      ),
-      Kitob(
-        'Odam anatomiyasi - Gadayev, Mirsharapov',
-        'https://github.com/kenshi007f/kutubxona_app/releases/download/v1.0/Gadayev_Mirsharapov_Odam_anatomiyasi.pdf'
-      ),
-      Kitob(
-        'Odam anatomiyasi - F. Bahodirov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Odam_anatomiyasi_Bahodirov.pdf'
-      ),
-      Kitob(
-        'Anatomiya - Xudoyberdiyev',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Xudoyberdiyev.pdf'
-      ),
+      // Keyingi fanlarni shu yerga qo'shasiz (Fiziologiya, va h.k.)
     ],
   ),
-
-  // 2-BO'LIM: NORMAL FIZIOLOGIYA
-  Bolim(
-    'Normal fiziologiya',
-    Icons.favorite,
-    Colors.red,
-    [
-      Kitob(
-        'Normal fiziologiya - Qodirov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Normal_Fiziologiya_Qodirov.pdf'
-      ),
-      Kitob(
-        'Normal fiziologiya - Alaviya (2006)',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Normal_fiziologiya_Alaviya_2006.pdf'
-      ),
-      Kitob(
-        'Normal fiziologiya - Alaviya (2018)',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Алявия_Нормал_физиология_2018.pdf'
-      ),
-      Kitob(
-        'Odam fiziologiyasi - Babskiy',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Бабский_Одам_физиологияси.pdf'
-      ),
-    ],
-  ),
-
-  // 3-BO'LIM: ATLASLAR
-  Bolim(
-    'Odam anatomiyasi (Atlas)',
-    Icons.image,
-    Colors.orange,
-    [
-      Kitob(
-        'Atlas 1-tom - Sinelnikov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/ATLAS_ANATOMIYA_1_TOM_SINELNIKOV.pdf'
-      ),
-      Kitob(
-        'Atlas 2-tom - Teshaev',
-        'https://github.com/kenshi007f/kutubxona_app/releases/download/v1.0/Anatomiya.Atlas_2_tom_Teshaev.pdf' // Rasmga qarab to'g'rilandi
-      ),
-      Kitob(
-        'Atlas 1-jild - N. Ahmedov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Atlas_1_jild_Ahmedov.pdf'
-      ),
-      Kitob(
-        'Atlas 1-tom - Teshaev',
-        'https://github.com/kenshi007f/kutubxona_app/releases/download/v1.0/Anatomiya_Atlas_1_tom_Teshaev.pdf' // Rasmga qarab to'g'rilandi
-      ),
-      Kitob(
-        'Atlas 2-jild - N. Ahmedov',
-        'https://github.com/kenshi007f/kutubxona_app/raw/main/Anatomiya_Atlas_2_jild_Ahmedov.pdf'
-      ),
-    ],
-  ),
+  // Keyingi kurslarni shu yerga qo'shasiz (2-darajali, 3-darajali...)
 ];
 
-// --- ASOSIY SAHIFA (BO'LIMLAR RO'YXATI) ---
+// --- ASOSIY SAHIFA (KURSLAR RO'YXATI) ---
 class AsosiySahifa extends StatelessWidget {
   const AsosiySahifa({super.key});
 
@@ -145,9 +104,9 @@ class AsosiySahifa extends StatelessWidget {
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
-        itemCount: hammaBolimlar.length,
+        itemCount: hammaKurslar.length,
         itemBuilder: (context, index) {
-          final bolim = hammaBolimlar[index];
+          final kurs = hammaKurslar[index];
           return Card(
             margin: const EdgeInsets.only(bottom: 12),
             elevation: 3,
@@ -157,18 +116,18 @@ class AsosiySahifa extends StatelessWidget {
               leading: Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
-                  color: bolim.rang.withValues(alpha: 0.1),
+                  color: kurs.rang.withOpacity(0.1),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Icon(bolim.ikonka, color: bolim.rang, size: 36),
+                child: Icon(kurs.ikonka, color: kurs.rang, size: 36),
               ),
-              title: Text(bolim.nomi, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
-              subtitle: Text('${bolim.kitoblar.length} ta kitob mavjud'),
+              title: Text(kurs.nomi, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+              subtitle: Text('${kurs.fanlar.length} ta fan mavjud'),
               trailing: const Icon(Icons.arrow_forward_ios, size: 18, color: Colors.grey),
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => BolimSahifasi(bolim: bolim)),
+                  MaterialPageRoute(builder: (context) => KursSahifasi(kurs: kurs)),
                 );
               },
             ),
@@ -179,24 +138,63 @@ class AsosiySahifa extends StatelessWidget {
   }
 }
 
-// --- BO'LIM ICHIDAGI SAHIFA (KITOBLAR RO'YXATI) ---
-class BolimSahifasi extends StatelessWidget {
-  final Bolim bolim;
-  const BolimSahifasi({super.key, required this.bolim});
+// --- KURS ICHIDAGI SAHIFA (FANLAR RO'YXATI) ---
+class KursSahifasi extends StatelessWidget {
+  final Kurs kurs;
+  const KursSahifasi({super.key, required this.kurs});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(bolim.nomi),
+        title: Text(kurs.nomi),
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
-        itemCount: bolim.kitoblar.length,
+        itemCount: kurs.fanlar.length,
         itemBuilder: (context, index) {
-          final kitob = bolim.kitoblar[index];
+          final fan = kurs.fanlar[index];
+          return Card(
+            margin: const EdgeInsets.only(bottom: 10),
+            child: ListTile(
+              leading: const Icon(Icons.book, color: Colors.indigo, size: 30),
+              title: Text(fan.nomi, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+              subtitle: Text('${fan.kitoblar.length} ta kitob'),
+              trailing: const Icon(Icons.arrow_forward_ios, size: 16),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => FanSahifasi(fan: fan)),
+                );
+              },
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+// --- FAN ICHIDAGI SAHIFA (KITOBLAR RO'YXATI) ---
+class FanSahifasi extends StatelessWidget {
+  final Fan fan;
+  const FanSahifasi({super.key, required this.fan});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(fan.nomi),
+        backgroundColor: Colors.indigo,
+        foregroundColor: Colors.white,
+      ),
+      body: ListView.builder(
+        padding: const EdgeInsets.all(16),
+        itemCount: fan.kitoblar.length,
+        itemBuilder: (context, index) {
+          final kitob = fan.kitoblar[index];
           return Card(
             margin: const EdgeInsets.only(bottom: 10),
             child: ListTile(
@@ -240,8 +238,7 @@ class _KitobOchishSahifasiState extends State<KitobOchishSahifasi> {
   // 1. Fayl telefonda bormi, yo'qmi tekshiramiz
   Future<void> _faylniTekshirish() async {
     final directory = await getApplicationDocumentsDirectory();
-    // Kitob nomini fayl nomiga aylantiramiz (probellarni olib tashlaymiz)
-    final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "") + '.pdf';
+    final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "").replaceAll("/", "_") + '.pdf';
     final file = File('${directory.path}/$faylNomi');
 
     if (await file.exists()) {
@@ -254,10 +251,10 @@ class _KitobOchishSahifasiState extends State<KitobOchishSahifasi> {
     setState(() { _yuklanmoqda = true; });
     try {
       final directory = await getApplicationDocumentsDirectory();
-      final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "") + '.pdf';
+      final faylNomi = widget.kitob.nomi.replaceAll(' ', '_').replaceAll("'", "").replaceAll("/", "_") + '.pdf';
       final file = File('${directory.path}/$faylNomi');
 
-      // Internetdan yuklab olish
+      // Internetdan yuklab olish (Telegram havolasidan)
       final response = await http.get(Uri.parse(widget.kitob.havola));
 
       if (response.statusCode == 200) {

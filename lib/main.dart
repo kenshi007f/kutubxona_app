@@ -59,30 +59,12 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Anatomiya',
         [
-          Kitob(
-            'Odam anatomiyasi - F. Bahodirov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Odam_anatomiyasi_Bahodirov.pdf'
-          ),
-          Kitob(
-            'Odam anatomiyasi - F. Bahodirov (2005)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Odam_anatomiyasi_Bahodirov_2005.pdf'
-          ),
-          Kitob(
-            'Odam anatomiyasi - Gadayev, Mirsharapov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Gadayev_Mirsharapov_Odam_anatomiyasi.pdf'
-          ),
-          Kitob(
-            'Odam anatomiyasi - Xudoyberdiyev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Anatomiya_Xudoyberdiyev.pdf'
-          ),
-          Kitob(
-            'Anatomiya 1-jild - A. Ahmedov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Anatomiya.1-jild.A.Ahmedov.2018.pdf'
-          ),
-          Kitob(
-            'Anatomiya 2-jild - A. Ahmedov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Ahmedov_2018_2_jild.pdf'
-          ),
+          Kitob('Odam anatomiyasi - F. Bahodirov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Odam_anatomiyasi_Bahodirov.pdf'),
+          Kitob('Odam anatomiyasi - F. Bahodirov (2005)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Odam_anatomiyasi_Bahodirov_2005.pdf'),
+          Kitob('Odam anatomiyasi - Gadayev, Mirsharapov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Gadayev_Mirsharapov_Odam_anatomiyasi.pdf'),
+          Kitob('Odam anatomiyasi - Xudoyberdiyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Anatomiya_Xudoyberdiyev.pdf'),
+          Kitob('Anatomiya 1-jild - A. Ahmedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Anatomiya.1-jild.A.Ahmedov.2018.pdf'),
+          Kitob('Anatomiya 2-jild - A. Ahmedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа/Ahmedov_2018_2_jild.pdf'),
         ],
       ),
 
@@ -90,30 +72,12 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Anatomiya (Atlaslar)',
         [
-          Kitob(
-            'Atlas 1-tom - Sinelnikov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/ATLAS_ANATOMIYA_1_TOM_SINELNIKOV.pdf'
-          ),
-          Kitob(
-            'Atlas 2-tom - Teshaev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya.Atlas_2_tom_Teshaev.pdf'
-          ),
-          Kitob(
-            'Atlas 1-tom - Teshaev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_1_tom_Teshaev.pdf'
-          ),
-          Kitob(
-            'Atlas 1-jild - Ahmedov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_1_jild_Ahmedov.pdf'
-          ),
-          Kitob(
-            'Atlas 2-jild - Ahmedov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_2_jild_Ahmedov.pdf'
-          ),
-          Kitob(
-            'Atlas 2-jild - Ahmedov (2013)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Odam.anatomiyasi.Atlas-2-jild.N.K.Ahmedov.-T.2013.y.pdf'
-          ),
+          Kitob('Atlas 1-tom - Sinelnikov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/ATLAS_ANATOMIYA_1_TOM_SINELNIKOV.pdf'),
+          Kitob('Atlas 2-tom - Teshaev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya.Atlas_2_tom_Teshaev.pdf'),
+          Kitob('Atlas 1-tom - Teshaev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_1_tom_Teshaev.pdf'),
+          Kitob('Atlas 1-jild - Ahmedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_1_jild_Ahmedov.pdf'),
+          Kitob('Atlas 2-jild - Ahmedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Anatomiya_Atlas_2_jild_Ahmedov.pdf'),
+          Kitob('Atlas 2-jild - Ahmedov (2013)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Anatomiyа_atlas/Odam.anatomiyasi.Atlas-2-jild.N.K.Ahmedov.-T.2013.y.pdf'),
         ],
       ),
 
@@ -121,30 +85,14 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Normal fiziologiya',
         [
-          Kitob(
-            'Normal fiziologiya - Qodirov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Normal.Fiziologiya.Qodirov.pdf'
-          ),
-          Kitob(
-            'Normal fiziologiya - Alaviya (2006)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Normal.fiziologiya.Alaviya.O.T.-.2006.y.pdf'
-          ),
-          Kitob(
-            'Normal fiziologiya - Alaviya',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/@TibbiyotKitoblar.Normal.fiziologiyaAlaviya.pdf'
-          ),
-          Kitob(
-            'Odam fiziologiyasi - Babskiy',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Babskiy-ODAM.FIZIOLOGIYASI.pdf'
-          ),
-          Kitob(
-            'Fiziologiyadan ma\'ruzalar',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/FIZIOLOGIYADAN.MA.RUZALAR.pdf'
-          ),
-          Kitob(
-            'Fiziologiya (2018)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/____2018.pdf'
-          ),
+          Kitob('Normal fiziologiya - Qodirov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Normal.Fiziologiya.Qodirov.pdf'),
+          Kitob('Normal fiziologiya - Alaviya (2006)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Normal.fiziologiya.Alaviya.O.T.2006.y.pdf'),
+          Kitob('Normal fiziologiya - Alaviya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Normal.fiziologiya_Alaviya.pdf'),
+          Kitob('Normal fiziologiya - Alaviya (2007)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Alaviya_Normal_fiziologiya.2007.pdf'),
+          Kitob('Normal fiziologiya - Alaviya (2018)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Alaviya_Normal_fiziologiya.2018.pdf'),
+          Kitob('Odam fiziologiyasi - Babskiy', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/Babskiy-ODAM.FIZIOLOGIYASI.pdf'),
+          Kitob('Fiziologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/fiziologiya.pdf'),
+          Kitob('Fiziologiyadan ma\'ruzalar', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Normal_fiziologiya/FIZIOLOGIYADAN.MA.RUZALAR.pdf'),
         ],
       ),
 
@@ -152,34 +100,14 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Mikrobiologiya',
         [
-          Kitob(
-            'Mikrobiologiya lab. mashg\'ulotlari - Aliyev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Aliyev-Mikrobiologiya.Laboratoriya.Mashg.ulotlari.pdf'
-          ),
-          Kitob(
-            'Mikrobiologiya, virusol., immunolog. - Muhamedov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/I.M.Muhamedov.va.boshq.Mikrobiol.virusol.immunolog.2019.pdf'
-          ),
-          Kitob(
-            'Mikrob., virusolog. va immunol.',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Mikrob.virusolog.va.immunol-ya.pdf'
-          ),
-          Kitob(
-            'Mikrobiologiya va immunologiya',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Mikrobiologiya.va.immunologiya.pdf'
-          ),
-          Kitob(
-            'Mikrobiologiya, immunologiya, virusologiya',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/MIKROBIOLOGIYA.IMMUNOLOGIYA.VIRUSOLOGIYAI.PDF'
-          ),
-          Kitob(
-            'Mikrobiologik tekshirish usullari',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/mikrobiologiya_va_mikrobiologik_tekshirish_usullari.pdf'
-          ),
-          Kitob(
-            'Klinik mikrobiologiya - Z. Nuruzova',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Z.Nuruzova.Klin.Mikrob-ya.pdf'
-          ),
+          Kitob('Mikrobiologiya lab. mashg\'ulotlari - Aliyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Aliyev-Mikrobiologiya.Laboratoriya.Mashg.ulotlari.pdf'),
+          Kitob('Mikrobiologiya, virusol., immunolog. - Muhamedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/I.M.Muhamedov.va.boshq.Mikrobiol.virusol.immunolog.2019.pdf'),
+          Kitob('Mikrob., virusolog. va immunol.', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Mikrob.virusolog.va.immunol-ya.pdf'),
+          Kitob('Mikrobiologiya va immunologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Mikrobiologiya.va.immunologiya.pdf'),
+          Kitob('Mikrobiologiya, immunologiya, virusologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/MIKROBIOLOGIYA.IMMUNOLOGIYA.VIRUSOLOGIYAI.PDF'),
+          Kitob('Mikrobiologik tekshirish usullari', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/mikrobiologiya_va_mikrobiologik_tekshirish_usullari.pdf'),
+          Kitob('Klinik mikrobiologiya - Z. Nuruzova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Z.Nuruzova.Klin.Mikrob-ya.pdf'),
+          Kitob('Mikrobiologiya (2019)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Mikrobiologiya/Muxamedov_mikrobiologiya.2019.pdf'),
         ],
       ),
 
@@ -187,34 +115,14 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Gistologiya',
         [
-          Kitob(
-            'Gistologiya darslik - To\'xtayev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/1.2.Gistologiya.darslik.To.xtayev.kengroq.pdf'
-          ),
-          Kitob(
-            'Gistologiya preparatlar bo\'yicha qo\'llanma',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/1_3_Gistologiya_preparatlar_bo.yicha_qo.llanma_2019.pdf'
-          ),
-          Kitob(
-            'Gistologiya (1-qism)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.I.qism.pdf'
-          ),
-          Kitob(
-            'Gistologiya (2-qism)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.II.qism.pdf'
-          ),
-          Kitob(
-            'Gistologiya - Zufarov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.Zufarov.K.2005.pdf'
-          ),
-          Kitob(
-            'Gistologiya sitologiyasi',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Q_R_To.xtayev_Gistologiya.sitologiya.docx'
-          ),
-          Kitob(
-            'To\'xtayev (Gistologiya)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/To.xtayev.pdf'
-          ),
+          Kitob('Gistologiya darslik - To\'xtayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/1.2.Gistologiya.darslik.To.xtayev.kengroq.pdf'),
+          Kitob('Gistologiya preparatlar bo\'yicha qo\'llanma', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/1_3_Gistologiya_preparatlar_bo.yicha_qo.llanma_2019.pdf'),
+          Kitob('Darslik gistologiya (lotincha)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/darslik_gistologiya_lotinda.pdf'),
+          Kitob('Gistologiya (1-qism)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.I.qism.pdf'),
+          Kitob('Gistologiya (2-qism)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.II.qism.pdf'),
+          Kitob('Gistologiya - Zufarov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Gistologiya.Zufarov.K.2005.pdf'),
+          Kitob('Gistologiya sitologiyasi', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/Q_R_To.xtayev_Gistologiya.sitologiya.docx'),
+          Kitob('To\'xtayev (Gistologiya)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya/To.xtayev.pdf'),
         ],
       ),
 
@@ -222,18 +130,10 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Gistologiya (Atlaslar)',
         [
-          Kitob(
-            'Gistologiya atlas - Abzalova',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/1.4.Gistologiya.atlas.Abzalova-2013.pdf'
-          ),
-          Kitob(
-            'Atlas Gistologiya',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/Atlas.Gistologiya.pdf'
-          ),
-          Kitob(
-            'Gistologiya atlasi (2010)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/2010.doc'
-          ),
+          Kitob('Gistologiya atlas - Abzalova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/1.4.Gistologiya.atlas.Abzalova-2013.pdf'),
+          Kitob('Atlas Gistologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/Atlas.Gistologiya.pdf'),
+          Kitob('Gistologiya atlasi (2010)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/2010.doc'),
+          Kitob('Junqueira (Gistologiya)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gistologiya_atlas/Junkeyra.pdf'),
         ],
       ),
 
@@ -241,38 +141,18 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Patologiya',
         [
-          Kitob(
-            'Patologik anatomiya (1-qism)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.anatomiya.1-qism.M.Abdullaxo.jayeva.pdf'
-          ),
-          Kitob(
-            'Patologik anatomiya (2-qism)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.anatomiya.2-qism.M.Abdullaxo.jayeva.pdf'
-          ),
-          Kitob(
-            'Patologik fiziologiya - Abdullayev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.Fiziologiya.Abdullayev.N.H.-.T.2008.y.pdf'
-          ),
-          Kitob(
-            'Patofiziologiya - Azimov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patofiziologiya.Azimov.R.Q.-.2010.y.doc'
-          ),
-          Kitob(
-            'Patologik fiziologiya - Haqberdiyev',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Haqberdiyev.-.Patologik.fiziologiya.pdf'
-          ),
-          Kitob(
-            'Strukov (Patologiya)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Strukov.uzb.pdf'
-          ),
-          Kitob(
-            'Patologiya (2014)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/-2014.pdf'
-          ),
-          Kitob(
-            'Patologiya (2016)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/-2016.pdf'
-          ),
+          Kitob('Patologik anatomiya (1-qism)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.anatomiya.1-qism.M.Abdullaxo.jayeva.pdf'),
+          Kitob('Patologik anatomiya (2-qism)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.anatomiya.2-qism.M.Abdullaxo.jayeva.pdf'),
+          Kitob('Patologik fiziologiya - Abdullayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patologik.Fiziologiya.Abdullayev.N.H.-.T.2008.y.pdf'),
+          Kitob('Patofiziologiya - Azimov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patofiziologiya.Azimov.R.Q.2010.y.doc'),
+          Kitob('Patologik fiziologiya - Haqberdiyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Haqberdiyev.Patologik.fiziologiya.pdf'),
+          Kitob('Strukov (Patologiya)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Strukov.uzb.pdf'),
+          Kitob('Odam patologiyasi (1998)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Odam_patologiyasi_asoslari.1-qism.Abdullaxojayeva.1998.pdf'),
+          Kitob('Odam patologiyasi (1999)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Odam_patologiyasi_asoslari.1-qism.Abdullaxojayeva.1999.pdf'),
+          Kitob('Patofiz. Lapasova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Patofiz_Lapasova.pdf'),
+          Kitob('Magrupov_seksion_kurs.2014', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Magrupov_seksion_kurs.2014.pdf'),
+          Kitob('Magrupov_seksion_kurs.2016', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Magrupov_seksion_kurs.2016.pdf'),
+          Kitob('Ziyamutdinova-Anatomiya.Fiziologiya.va.Patologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Patologiya/Ziyamutdinova-Anatomiya.Fiziologiya.va.Patologiya.pdf'),
         ],
       ),
 
@@ -280,42 +160,47 @@ const List<Kurs> hammaKurslar = [
       Fan(
         'Farmakologiya',
         [
-          Kitob(
-            'Klinik farmakologiya',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/1.37.Klinik.farmakologiya.pdf'
-          ),
-          Kitob(
-            'Farmakologiya asoslari - Odilov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Farmakologiya.asoslari.M.Odilov.N.Musayeva.pdf'
-          ),
-          Kitob(
-            'Farmakologiya - Azizova',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Farmakologiya._Azizova_S.S._-_T._2006_y.pdf'
-          ),
-          Kitob(
-            'Fundamental farmakologiya (2020)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Fundamental.Farmakologiya.2020y.Mayskiy.tarjima.pdf'
-          ),
-          Kitob(
-            'Klinik farmakologiya - Mavlyanov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Klinik.farmakologiya.I.Mavlyanov.R.Mahkamova.P.Kats.pdf'
-          ),
-          Kitob(
-            'Klinik farmakologiya - Mamadov',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Klinik.Farmakologiya.Mamadov.Yu.M.-.T.2010.y.pdf'
-          ),
-          Kitob(
-            'Retseptura - Xarkevich',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Retseptura.+Xarkevich.o.zbekchasi.doc'
-          ),
-          Kitob(
-            'Umumiy farmakologiya va retseptura',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/umumiy_farmakologiya_va_retseptura.pdf'
-          ),
-          Kitob(
-            'Xarkevich (O\'zbekcha)',
-            'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Xarkevich_o.zbekcha.pdf'
-          ),
+          Kitob('Klinik farmakologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/1.37.Klinik.farmakologiya.pdf'),
+          Kitob('Farmakologiya asoslari - Odilov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Farmakologiya.asoslari.M.Odilov.N.Musayeva.pdf'),
+          Kitob('Farmakologiya - Azizova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Farmakologiya._Azizova_S.S._-_T._2006_y.pdf'),
+          Kitob('Fundamental farmakologiya (2020)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Fundamental.Farmakologiya.2020y.Mayskiy.tarjima.pdf'),
+          Kitob('Klinik farmakologiya - Mavlyanov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Klinik.farmakologiya.I.Mavlyanov.R.Mahkamova.P.Kats.pdf'),
+          Kitob('Klinik farmakologiya - Mamadov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Klinik.Farmakologiya.Mamadov.Yu.M.-.T.2010.y.pdf'),
+          Kitob('Mamadov klinik farmakologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Mamadov_klinik_farmakologiya.pdf'),
+          Kitob('Retseptura - Xarkevich', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Retseptura.+Xarkevich.o.zbekchasi.doc'),
+          Kitob('Umumiy farmakologiya va retseptura', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/umumiy_farmakologiya_va_retseptura.pdf'),
+          Kitob('Xarkevich (O\'zbekcha)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Xarkevich_o.zbekcha.pdf'),
+          Kitob('Xususiy farmakologiya - Xarkevich', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Farmakologiya/Xususiy.farmakologiya.Xarkevich.pdf'),
+        ],
+      ),
+
+      // 9. BIOKIMYO
+      Fan(
+        'Biokimyo',
+        [
+          Kitob('Biologik kimyo - Sobirova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/Biologik.kimyo.Sobirova.R.A.-.2006.pdf'),
+          Kitob('Biokimya - Nikolayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/bioximiya.Nikolayev.pdf'),
+          Kitob('Biokimyo 1-qism - Sobirova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/R.A.Sobirova.Biokimyo.1.q.pdf'),
+          Kitob('Biokimyo 2-qism - Sobirova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/sabirova.r.a.yuldashev.n.m.biokimyo.2qism.pdf'),
+          Kitob('Severin 1-qism', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/Severin.1-qism.docx'),
+          Kitob('Severin 2-qism', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biokimyo/Severin.2-qism.docx'),
+        ],
+      ),
+
+      // 10. IKP VA BKP
+      Fan(
+        'IKP va BKP',
+        [
+          Kitob('BKP - Arizqulov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/BKPArizqulov.pdf'),
+          Kitob('BKP', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/BKP.doc'),
+          Kitob('BKP - Qoraxojayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/BKPQoraxojayev.pdf'),
+          Kitob('Bolalar kasalliklari - Daminov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Daminov-Bolalar.kasalliklari.pdf'),
+          Kitob('Darslik Daminov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/darslik_Daminov.doc'),
+          Kitob('Geppe darslik', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Geppe_darslik.docx'),
+          Kitob('Ichki kasalliklar propedevtikasi - A. Gadayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Ichki.kasalliklar.propedevtikasi.A.Gadayev.pdf'),
+          Kitob('IKP - Gadoyev (original)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/IKP-Gadoyev.original.pdf'),
+          Kitob('Ichki kasalliklar - Kamolov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Kamolov-Ichki.Kasalliklar.pdf'),
+          Kitob('Ichki kasalliklar propedevtikasi - Qosimov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Qosimov-Ichki.kasalliklar.propedevtikasi.pdf'),
         ],
       ),
     ],

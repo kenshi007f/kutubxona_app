@@ -48,7 +48,7 @@ class Kurs {
   const Kurs(this.nomi, this.ikonka, this.rang, this.fanlar);
 }
 
-// --- BARCHA MA'LUMOTLAR (1-DARAJALI VA 2-DARAJALI) ---
+// --- BARCHA MA'LUMOTLAR ---
 const List<Kurs> hammaKurslar = [
   // ================= 1-DARAJALI FANLAR =================
   Kurs(
@@ -303,6 +303,93 @@ const List<Kurs> hammaKurslar = [
           Kitob('Organik kimyo - A. Karimov (2021)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Organik.kimyo.-A-Karimov.-Darslik-.Toshkent-2021.pdf'),
           Kitob('Tibbiy kimyo 2', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Tibbiy.kimyo.2.pdf'),
           Kitob('Tibbiy kimyo - Masharipov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/TIBBIY.KIMYO_MASHARIPOV.pdf'),
+        ],
+      ),
+
+      // 10. BIOFIZIKA (Yangilandi)
+      Fan(
+        'Biofizika',
+        [
+          Kitob('Biofizika', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Biofizika.pdf'),
+          Kitob('Dozimetriya asoslari', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Dozimetriya.asoslari.pdf'),
+          Kitob('NamDU-ARM-9781-Biofizika', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/NamDU.ARM.9781.Biofizika.pdf'),
+          Kitob('Nazariy mexanika - A. Fayzullayev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Nazariy.mexanika.A.FAYZULLAYEV.pdf'),
+          Kitob('Olmasova Fizika 1-kitob', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/olmasova.Fizika.1-kitob.pdf'),
+          Kitob('Qo\'llanma', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/qollanma.pdf'),
+          Kitob('Tibbiy va biologik fizika - Remizov (594 bet)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Remizov.A.N.Tibbiy.va.biologik.fizika.2005.pdf'),
+          Kitob('Tibbiy va biologik fizika - Remizov (2005)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Tibbiy_va_biologik_fizika_Remizov.2005.pdf'),
+          Kitob('Umumiy fizika kursi - E. Frish (1-tom)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Biofizika/Umumiy_fizika_kursi.E.Frish.1-tom.pdf'),
+        ],
+      ),
+
+      // 11. O'ZBEKISTON TARIXI
+      Fan(
+        'O\'zbekiston tarixi',
+        [
+          Kitob('Fuqarolik jamiyati - A. Utamurodov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/A.Utamurodov.Fuqarolik.jamiyati.2018.pdf'),
+          Kitob('Murtazayeva darslik', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/Murtazayeva.darslik.pdf'),
+          Kitob('Ostonov - O\'zbekiston tarixi', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/Ostonov_Ozbekiston_tarixi.pdf'),
+          Kitob('O\'zbekiston tarixi - Shamsutdinov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/Ozbekiston.tarixi.SHAMSUTDINOV.pdf'),
+          Kitob('O\'zbekiston tarixi (UMK)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/Ozbekiston.tarixi.UMK.yangisi.doc'),
+          Kitob('O\'zbekiston tarixi - Usmonov, Sodiqov, Burxonova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Uzbekistan_tarixi/Q.Usmonov.M.Sodiqov.S.Burxonova.Ozbekiston.tarixi.pdf'),
+        ],
+      ),
+
+      // 12. TIBBIYOT TARIXI
+      Fan(
+        'Tibbiyot tarixi',
+        [
+          Kitob('Tibbiyot tarixi 2', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiyot_tarixi/Tibbiyot.tarixi.2.pdf'),
+          Kitob('Tibbiyot tarixi', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiyot_tarixi/Tibbiyot.tarixi.pdf'),
+          Kitob('Tibbiyot tarixi - Qodirov (2005)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiyot_tarixi/Tibbiyot.tarixi.Qodirov.A.-.2005.pdf'),
+          Kitob('Tibbiyot tarixi - Qodirov (2005 y)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiyot_tarixi/Tibbiyot.tarixi.Qodirov.A.2005.y.pdf'),
+        ],
+      ),
+
+      // 13. TKK (Tibbiyot kasbiga kirish)
+      Fan(
+        'TKK (Tibbiyot kasbiga kirish)',
+        [
+          Kitob('Tibbiyot kasbiga kirish - Xalmatova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/B.T.Xalmatova.Tibbiyot.kasbiga.pdf'),
+          Kitob('Kitob TKK', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/Kitob.TKK.doc'),
+          Kitob('Tibbiyot kasbiga kirish darslik - Xalmatova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/Tibbiyot.kasbiga.kirish.darslik.Xalmatova.B.T.pdf'),
+          Kitob('Tibbiyot kasbiga kirish', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/Tibbiyot.kasbiga.kirish.pdf'),
+          Kitob('Tibbiyot kasbiga kirish 4', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/tibbiyot_kasbiga_kirish.4.pdf'),
+          Kitob('Tibbiyot kasbiga kirish - Xalmatova (2018)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/Tibbiyot_kasbiga_kirish_DR_B_T_Xalmatova_va_b_T_2018_y.2.pdf'),
+          Kitob('TKK kitobi 1', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TKK/TKK_kitobi_1.pdf'),
+        ],
+      ),
+
+      // 14. BIOETIKA
+      Fan(
+        'Bioetika',
+        [
+          Kitob('Bioetika - Muxamedov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Bioetika/Bioetika.muxamedov.docx'),
+          Kitob('Bioetika (O\'zbek tilida)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Bioetika/BIOETIKA.UZBEK.TILIDA.docx'),
+          Kitob('Bioetika (2016)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Bioetika/bioetika_2016.pdf'),
+          Kitob('Bioetika - Yoldoshev va boshqalar (2019)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Bioetika/YOLDOSHEV.va.boshqalar.bioetika_2019.pdf'),
+        ],
+      ),
+
+      // 15. INGLIZ TILI
+      Fan(
+        'Ingliz tili',
+        [
+          Kitob('Ingliz tili - Xo\'jayeva, Arziyeva va b.', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Ingliz_tili/Ingliz.tili.L.Xojayeva.D.Arziyeva.va.b.pdf'),
+          Kitob('Ingliz tili - Xo\'jayeva (2005)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Ingliz_tili/Ingliz.tili.Xojayeva.L.U.-.2005.y.pdf'),
+          Kitob('Tibbiyotda ingliz tili', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Ingliz_tili/Tibbiyotda.ingliz.tili.pdf'),
+        ],
+      ),
+
+      // 16. TAT (Tibbiyotda axborot texnologiyalari)
+      Fan(
+        'TAT (Tibbiyotda axborot texnologiyalari)',
+        [
+          Kitob('Informatika asoslari - Aripov, Haydarov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TAT/Informatika.asoslari.M.Aripov.A.Haydarov.pdf'),
+          Kitob('Informatika va axborot texnologiyalari - Safarov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TAT/Informatika.va.axborot.texnologiyalari.Safarov.T.S.pdf'),
+          Kitob('Informatika va axborot texnologiyalari (tibbiyot)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TAT/Safarov_Informatika_va_axborot_texnologiyalari_tibbiyot.pdf'),
+          Kitob('Tibbiyotda axborot texnologiyalari - Bazarboev (2018)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TAT/Tibbiyotda.axborot.texnologiyalar.darslik.Bazarbaev.2018.pdf'),
+          Kitob('Tibbiyotda axborot texnologiyalari 222', 'https://github.com/kenshi007f/kutubxona_app/releases/download/TAT/TIBBIYOTDA.AXBOROT.TEXNOLOGIYALARI222.pdf'),
         ],
       ),
     ],

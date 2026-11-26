@@ -48,8 +48,9 @@ class Kurs {
   const Kurs(this.nomi, this.ikonka, this.rang, this.fanlar);
 }
 
-// --- BARCHA MA'LUMOTLAR (1-DARAJALI FANLAR) ---
+// --- BARCHA MA'LUMOTLAR (1-DARAJALI VA 2-DARAJALI) ---
 const List<Kurs> hammaKurslar = [
+  // ================= 1-DARAJALI FANLAR =================
   Kurs(
     '1-darajali fanlar',
     Icons.looks_one,
@@ -201,6 +202,107 @@ const List<Kurs> hammaKurslar = [
           Kitob('IKP - Gadoyev (original)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/IKP-Gadoyev.original.pdf'),
           Kitob('Ichki kasalliklar - Kamolov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Kamolov-Ichki.Kasalliklar.pdf'),
           Kitob('Ichki kasalliklar propedevtikasi - Qosimov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/IKP_va_BKP/Qosimov-Ichki.kasalliklar.propedevtikasi.pdf'),
+        ],
+      ),
+    ],
+  ),
+
+  // ================= 2-DARAJALI FANLAR =================
+  Kurs(
+    '2-darajali fanlar',
+    Icons.looks_two,
+    Colors.orange,
+    [
+      // 1. JAMOAT SALOMATLIGI
+      Fan(
+        'Jamoat salomatligi',
+        [
+          Kitob('Jamoat salomatligi va sog\'liqni saqlash', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Jamoat_salomatligi/Jamoat.salomatligi.va.sog.likni.saql.boshq.Mamatqulov.pdf'),
+        ],
+      ),
+
+      // 2. LOTIN TILI
+      Fan(
+        'Lotin tili',
+        [
+          Kitob('Lotin tili - Boliyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Lotin_tili/Lotin.tili.Boliyev.M.N.pdf'),
+          Kitob('Lotin tili - Rustamova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Lotin_tili/Lotin.tili.S.Sh.Rustamova.pdf'),
+          Kitob('Lotin tili - Xo\'jayeva', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Lotin_tili/Lotin.tili.Xo.jayeva.L.U.-.2005.y.pdf'),
+          Kitob('Lotin tilidan lug\'at', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Lotin_tili/LOTIN.TILIDAN.LUGAT.pdf'),
+        ],
+      ),
+
+      // 3. DALA JARROHLIGI
+      Fan(
+        'Dala jarrohligi',
+        [
+          Kitob('Harbiy-dala jarrohligi - Kariyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Dala_jarrohligi/Harbiy-Dala.Jarrohligi.Kariyev.M.-.T.2007.y.pdf'),
+        ],
+      ),
+
+      // 4. FALSAFA
+      Fan(
+        'Falsafa',
+        [
+          Kitob('Falsafa - Yusupov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Falsafa/Falsafa.E.Yusupov.va.b.pdf'),
+          Kitob('Falsafa - Shermuxamedova', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Falsafa/Falsafa.Shermuxamedova.N.Toshkent.2019.pdf'),
+          Kitob('Falsafa - Davronov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Falsafa/Falsafa.Z.Davronov.Toshkent.2019.pdf'),
+          Kitob('Falsafa asoslari', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Falsafa/Falsafa_asoslari_Q_Nazarov_S_Mamashokirov.pdf'),
+        ],
+      ),
+
+      // 5. FUQAROLIK JAMIYATI
+      Fan(
+        'Fuqarolik jamiyati',
+        [
+          Kitob('Fuqarolik jamiyati - A. Utamurodov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Fuqarolik_jamiyati/A.Utamurodov.Fuqarolik.jamiyati.2018.pdf'),
+        ],
+      ),
+
+      // 6. HAYOT XAVFSIZLIGI
+      Fan(
+        'Hayot xavfsizligi',
+        [
+          Kitob('Hayot faoliyati xavfsizligi', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Hayot_xavfsizligi/hayot_faoliyati_xavfsizligi.doc'),
+        ],
+      ),
+
+      // 7. TIBBIY BIOLOGIYA
+      Fan(
+        'Tibbiy biologiya',
+        [
+          Kitob('Tibbiy biologiya va genetika - Nishonboyev', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/11.Nishonboyev.K.N.Tibbiy.biologiya.va.genetika.docx'),
+          Kitob('Biologiya - Xoliqov (2005)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/Biologiya.P.X.Xoliqov.2005.pdf'),
+          Kitob('Tibbiy biologiya va genetika (1-qism)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/tibbiy.biologiya.va.genetika.1.pdf'),
+          Kitob('Tibbiy biologiya va genetika (2019)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/Tibbiy.biologiya.va.genetika.2019.P.X.pdf'),
+          Kitob('Tibbiy biologiya va umumiy genetika', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/Tibbiy.biologiya.va.umumiy.genetika.OTM.uchun.pdf'),
+          Kitob('Xoliqov (2018)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_Biologiya/Xoliqov_2018_yil.docx'),
+        ],
+      ),
+
+      // 8. GIGIYENA
+      Fan(
+        'Gigiyena',
+        [
+          Kitob('Gigiyena tibbiy ekologiya', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/Gigiena.tibbiy.ekologiya.O.q.Qo.ll.pdf'),
+          Kitob('Gigiyena', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/Gigiyena.pdf'),
+          Kitob('Kommunal gigiyena - Rustamova (2019)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/Kommunal.gigiyena.H.E.Rustamova.2019.Darslik.pdf.pdf'),
+          Kitob('Kommunal gigiyena - Otaboyev (2007)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/Kommunal.gigiyena.Otaboyev.Sh.T.-.2007.y.pdf'),
+          Kitob('Ovqatlanish fiziologiyasi asoslari', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/ovqatlanish_fiziologiyasi_asos.pdf'),
+          Kitob('Umumiy gigiyena - Duschanov (2008)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Gigiyena/Umumiy.gigiyena.Duschanov.B.A.-.2008.y.2.pdf'),
+        ],
+      ),
+
+      // 9. TIBBIY KIMYO
+      Fan(
+        'Tibbiy kimyo',
+        [
+          Kitob('Tibbiy kimyo (1-qism) - Alimxodjayeva', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Alimxodjayeva.N.T.Tibbiy.kimyo.I-qism.2019.pdf'),
+          Kitob('Bioorganik kimyo - Mahsumov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Bioorganik.kimyo.Mahsumov.A.G.2007.pdf'),
+          Kitob('Bioorganik kimyo - N.T. Alimxodjayeva', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/N.T.ALIMXODJAYEVA.BIOORGANIK.KIMYO.pdf'),
+          Kitob('Organik kimyo - A. Karimov (2021)', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Organik.kimyo.-A-Karimov.-Darslik-.Toshkent-2021.pdf'),
+          Kitob('Tibbiy kimyo 2', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/Tibbiy.kimyo.2.pdf'),
+          Kitob('Tibbiy kimyo - Masharipov', 'https://github.com/kenshi007f/kutubxona_app/releases/download/Tibbiy_kimyo/TIBBIY.KIMYO_MASHARIPOV.pdf'),
         ],
       ),
     ],
